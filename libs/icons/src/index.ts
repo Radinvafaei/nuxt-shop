@@ -1,0 +1,14 @@
+export { default as SearchIcon } from './Search.vue';
+export { default as CloseIcon } from './Close.vue';
+export { default as ArrowIcon } from './DropDown.vue';
+export { default as TelegramIcon } from './Telegram.vue';
+export { default as TwitterIcon } from './Twitter.vue';
+export { default as LinkedinIcon } from './Linkedin.vue';
+export { default as YoutubeIcon } from './Youtube.vue';
+export { default as InstagramIcon } from './Instagram.vue';
+export { default as Phone } from './Phone.vue';
+export { default as Book } from './Book.vue';
+export { default as FAQ } from './FAQ.vue';
+export { default as Products } from './Products.vue';
+export { default as Home } from './Home.vue';
+export { default as Sort } from './Sort.vue';

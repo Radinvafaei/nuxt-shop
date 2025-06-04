@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "types": [
+      "@types/node",
+      "@nuxt/image",
+      "vue"
+    ],
+    "paths": {
+      "#imports": ["./apps/user/.nuxt/imports.d.ts"],
+    }
+  },
+  "include": [".nuxt/nuxt.d.ts", "src/**/*"],
+  "exclude": []
+}

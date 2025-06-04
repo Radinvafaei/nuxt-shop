@@ -1,0 +1,19 @@
+{
+  "name": "http-client",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "libs/http-client/src",
+  "projectType": "library",
+  "targets": {
+    "build": {
+      "executor": "@nx/js:swc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/libs/http-client",
+        "main": "libs/http-client/src/index.ts",
+        "tsConfig": "libs/http-client/tsconfig.lib.json",
+        "assets": ["libs/http-client/*.md"]
+      }
+    }
+  },
+  "tags": []
+}

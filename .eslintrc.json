@@ -1,0 +1,44 @@
+{
+  "env": {
+    "browser": true,
+    "es2022": true,
+    "node": true
+  },
+  "extends": [
+    "prettier",
+    "plugin:prettier/recommended"
+  ],
+  "plugins": [
+    "vue",
+    "import",
+    "prettier"
+  ],
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "parser": "@typescript-eslint/parser",
+    "ecmaVersion": 2022,
+    "sourceType": "module"
+  },
+  "rules": {
+    "prettier/prettier": "warn",
+    "camelcase": "off",
+    "no-ternary": "off",
+    "no-empty": "warn",
+    "react/require-default-props": "off",
+    "react/prop-types": "off",
+    "react/jsx-filename-extension": "off",
+    "react/jsx-props-no-spreading": "off",
+    "quotes": [
+      "warn",
+      "backtick"
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["*.stories.@(ts|tsx)"],
+      "rules": {
+        "quotes": ["warn", "single"]
+      }
+    }
+  ]
+}
